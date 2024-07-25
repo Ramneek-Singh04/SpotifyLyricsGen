@@ -1,6 +1,4 @@
-#genius access token: TGwh02eoUW6GzZeSl4Ed5mfWM6WKz8PmJf9w40oRmHfDYFnrDGjBROgYe-Tyh476
-#spotify client ID: 0e3323585eca4482a792eb98d357b2e7
-#spotify client secret: a39fb145124b49ab9df5dda73cad6f5d
+
 #uri: https://google.com
 
 
@@ -11,10 +9,10 @@ import spotipy
 import lyricsgenius as lg
 
 
-os.environ["SPOTIPY_CLIENT_ID"] = '0e3323585eca4482a792eb98d357b2e7'
-os.environ["SPOTIPY_CLIENT_SECRET"] = 'a39fb145124b49ab9df5dda73cad6f5d'
+os.environ["SPOTIPY_CLIENT_ID"] = 'ERASED'
+os.environ["SPOTIPY_CLIENT_SECRET"] = 'ERASED'
 os.environ["SPOTIPY_REDIRECT_URI"] = 'https://google.com'
-os.environ["GENIUS_ACCESS_TOKEN"] = 'TGwh02eoUW6GzZeSl4Ed5mfWM6WKz8PmJf9w40oRmHfDYFnrDGjBROgYe'
+os.environ["GENIUS_ACCESS_TOKEN"] = 'ERASED'
 
 spotify_client_id = os.environ['SPOTIPY_CLIENT_ID']
 spotify_secret = os.environ['SPOTIPY_CLIENT_SECRET']
